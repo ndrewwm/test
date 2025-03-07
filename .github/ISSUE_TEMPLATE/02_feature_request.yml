@@ -27,9 +27,13 @@ body:
         - label: New mart
         - label: Updates to an existing mart
   - type: textarea
-    label: What is the nature of this request?
-    description: Tell us a bit more about what you need done.
-    value: Enter your details here (this form supports Markdown syntax).
+    id: request-description
+    attributes:
+      label: What is the nature of this request?
+      description: Tell us a bit more about what you need done.
+      value: Enter your details here (this form supports Markdown syntax).
+    validations:
+      required: true
   - type: dropdown
     id: priority
     attributes:
