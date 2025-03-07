@@ -31,8 +31,8 @@ body:
       label: Environment
       description: What environment are you seeing this issue?
       options:
-        - Production (Prod)
-        - Test
+        - label: Production (Prod)
+        - label: Test
     validations:
       required: true
   - type: textarea
