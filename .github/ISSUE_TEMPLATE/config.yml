@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions
+    url: https://github.com/ndrewwm/test/discussions
+    about: If you have a question or feature request, please start a thread here.
+  - name: Security Vulnerability
+    url: www.google.com
+    about: If you are experiencing an urgent security issue, please contact security@world.com.
