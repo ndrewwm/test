@@ -1,0 +1,32 @@
+name: 📝 Documentation
+description: Updating documentation related to this project.
+labels: ["documentation", "good first issue"]
+projects: ["ndrewwm/5"]
+title: "[Documentation]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to help us improve our documentation!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+  - type: dropdown
+    id: request-type
+    attributes:
+      label: What kind of documentation needs to be improved?
+      multiple: true
+      options:
+        - GitHub README
+        - Project code
+        - dbt docs
+        - Other
+  - type: textarea
+    id: request-description
+    attributes:
+      label: >
+        Describe what should be updated. **Note:** if your request concerns dbt docs, please
+        list each model in this section. Links to the relevant pages in our dbt docs are great!
